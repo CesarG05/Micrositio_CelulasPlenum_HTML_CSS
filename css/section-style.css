@@ -1,0 +1,92 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --azul-oscuro: #00274D;
+    --azul-claro: #004A99;
+    --gris-claro: #f8f9fa;
+}
+
+/* Estilo para Sección de Temas*/
+.info-section {
+    background-color: var(--gris-claro); 
+    padding: 40px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Títulos de Temas*/
+.info-section h2 {
+    color: var(--azul-claro);
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+/* Títulos Videos y Actividad*/
+.info-section h3 {
+    color: var(--azul-claro);
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+/* Párrafos */
+.info-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--oscuro);
+    text-align: justify;
+}
+
+/* Contenedor de videos */
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+/* Contenedor de PDF */
+.pdf-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+/* Enlace para entrar al PDF*/
+p a {
+    color: var(--azul-claro); 
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: var(--oscuro); 
+}
+
+/* Línea divisoria personalizada */
+hr {
+    border: none; 
+    height: 4px; 
+    background: linear-gradient(to right, var(--azul-claro),  #e3321b); /* Degradado de colores */
+    border-radius: 2px; 
+    margin: 40px auto; 
+    width: 80%; 
+}
+
+/*Pie de Página */
+footer {
+    text-align: center;
+    background-color: var(--azul-oscuro);
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} 
+
